@@ -1,0 +1,8 @@
+check50:
+  checks:
+    hello world:
+      - run: python3 hello.py
+        stdout: Enter your name:
+        stdin: Bob
+        stdout: Hello Bob
+        exit: 0

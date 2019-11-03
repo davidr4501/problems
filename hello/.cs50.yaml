@@ -8,5 +8,9 @@ check50:
       - run: python3 hello.py
         stdout: Hello, world!
         exit: 0
+    Perfect Code:
+      - run: cat hello.py
+        stdout: print("Hello, world!")
+        exit: 0
 submit50:
   files: *check50_files
